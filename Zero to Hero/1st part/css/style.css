@@ -1,0 +1,55 @@
+h2:hover {
+    color: blue;
+}
+
+
+h2[class=subtitle] { 
+    color:yellowgreen;
+}
+/* We can also use h2[class=subtitle] it works the same as .subtitle */
+
+#services {
+    color:green;
+}
+
+/* li:only-child { 
+    color: steelblue;  
+    }   */
+    /* nth-child(n) which i want, first child, last child, only-child when we have only one thing, 
+    ofc it can be used with td e.g. it is named "pseudoselectors" */
+
+/* #google-link:link {
+    color: black;
+}
+
+#google-link:visited {
+    color: red;
+} */
+
+h2 + a {
+    color: red;
+}
+
+textarea ~ button {
+    color: purple;
+    background:black;
+}
+
+ul > li {
+    color: blue;
+}
+
+ul li {
+    color: green;
+}
+
+img[src*="../img/"] {
+    border: 15px solid black;
+}
+/* img src^ it's giving possibility to use the same lines of code to every single image in folder img, we can use "*" */
+
+h2[class~=article-subtitle] {
+    background: green;
+}
+/* Thing which we write up, it is not so common, but important. */
+
