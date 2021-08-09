@@ -1,21 +1,25 @@
 body {
     background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
-    text-transform: uppercase; 
-    /* capitalize - every word start with large letter, uppercase give us everything in capital letters, lowercase is opposite */
-    
-    text-align: justify;
-    
+    font-size: 1.15em;
+    text-align: justify; 
+    font-family: "Lato", sans-serif;
+
+    /* text-transform: capitalize - every word start with large letter, uppercase give us everything in capital letters, lowercase is opposite */
     /*For font-size we can use: em, mm, cm, m, px, etc.*/
     /* background: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg")  */
     /* we can also use background-image to add photo to background, also we can use ../img/img1.jpg e.g. */
 }
 
 #title {
-    color: rgb(236, 11, 11)
+    color: rgb(236, 11, 11);
+    font-family: "Montserrat", sans-serif;
+
+    /* font-weight: 400; we shouldn't go higher than 800 */
 }
 
 .subtitle {
     color: rgb(89, 0, 128);
+    font-family: "Montserrat", sans-serif;
 }
 
 #service-image {
@@ -30,8 +34,27 @@ body {
     /* background-size: cover; contain */
 
     background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+    border: 10px solid rgb(60, 85, 95); /* size style (double, dashed, solid, dotted), color */
 }
 
 .link {
     text-decoration: underline; /* none, line-through, overline, underline */
+}
+
+.italics {
+    font-style: italic; /* oblique, italic, normal */ 
+}
+
+#about-us-image {
+    height: 300px;
+    width: 60%;
+
+    border: 5px solid rgb(28, 28, 79);
+    margin: 80px 40px; /*padding top, right, left, bottom. margin 1st: top, bottom, 2nd: left, right.*/
+
+    float: right;
+}
+
+.site-table {
+    display: inline-block;
 }
