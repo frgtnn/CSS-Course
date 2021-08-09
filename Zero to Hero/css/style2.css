@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
+    text-transform: uppercase; 
+    /* capitalize - every word start with large letter, uppercase give us everything in capital letters, lowercase is opposite */
+    
+    text-align: justify;
+    
+    /*For font-size we can use: em, mm, cm, m, px, etc.*/
+    /* background: url("https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg")  */
+    /* we can also use background-image to add photo to background, also we can use ../img/img1.jpg e.g. */
+}
+
+#title {
+    color: rgb(236, 11, 11)
+}
+
+.subtitle {
+    color: rgb(89, 0, 128);
+}
+
+#service-image {
+    height: 400px;
+    width: 70vw; 
+    
+    /* vw (viewport width(vw) and height(vh)), allows us to specify size in terms of percentages /*
+    /* background-color: steelblue; */
+    /* background: url("../img/img-2.jpg"); */
+    /* background: linear-gradient(215deg, rgb(94, 255, 126), rgba(94, 255, 126,0));  */
+    /* (to right, red, blue)it goes linear from red to blue. we can also use to: bottom right, bottom left, top etc. */ 
+    /* background-size: cover; contain */
+
+    background: radial-gradient(circle, red 20%, blue 40%, green 55%);
+}
+
+.link {
+    text-decoration: underline; /* none, line-through, overline, underline */
+}
