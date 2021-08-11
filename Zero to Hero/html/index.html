@@ -14,7 +14,7 @@
 
 <p class="para-text">Some text which I need to show you my progress.</p>
 
-<h2 class="subtitle">Some things about me</h2>
+<h2 class="subtitle" id="about-me">Some things about me</h2>
 
 <img src="../img/img-1.jpg" id="about-us-image">
 
@@ -80,8 +80,7 @@
 <div class="grid-container">
     <div class="grid-item" style="
     background: rgb(255, 150, 150);
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;">
+    grid-area: 2 / 1 / span 2 / span 3;"> 
     1</div>
     <div class="grid-item" style="
     background: rgb(170, 255, 140);">
@@ -106,7 +105,7 @@
     <input type="text" placeholder="Full Name" class="form-input">
     <input type="email" placeholder="Email" class="form-input">
     <textarea></textarea>
-    <button>Submit</button>
+    <button class="submit-button">Submit</button>
 </form>
 
 </body>
