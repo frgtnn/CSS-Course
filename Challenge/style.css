@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(128, 233, 242);
+}
+
+img {
+    width: 500px;
+    height: 250px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 50px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar {
+    background-color: rgb(250, 170, 85);
+}
+
+.image-grid > img {
+    margin: 15px;
+}
