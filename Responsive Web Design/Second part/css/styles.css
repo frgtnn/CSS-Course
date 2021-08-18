@@ -6,14 +6,14 @@ body {
 }
 
 /* from a minimum width of 700px and bigger */
-@media (min-width: 700px) {
+@media (min-width: 700px){
     body {
         background: purple;
     }
 }
 
-/* from a minimum width of 1000px and bigger */
-@media (min-width: 1000px) {
+/* from a minimum width of 800px up to a width of 1100px)*/
+@media (min-width: 800px) and (max-width: 1100px) {
     body {
         background: orange;
     }
@@ -50,9 +50,7 @@ img {
 .columns {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    margin: 1em 0;
-    border: 5px solid steelblue; 
+    align-items: flex-start; 
 }
 
 .col-1 {
@@ -65,6 +63,16 @@ img {
 
 .col-3 {
     width: 70%;
+}
+
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
 }
 
 .col-bg {
