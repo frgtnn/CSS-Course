@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', serif;
+}
+
+.first-header {
+    background-image: url("../img/header-background.png");
+    background-size: cover;
+}
+
+.h1-title {
+    color: #fff;
+}
+
+.h1-title-user {
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+
+p {
+    color: #fff;
+}
