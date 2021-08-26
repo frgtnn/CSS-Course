@@ -5,22 +5,24 @@ html, body {
 }
 
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.8;
 }
 
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1366px;
+    }
+}
+
 .first-header {
-    background-image: url("../img/header-background.png");
+    background: url("../img/header-background.png") top center no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
 }
 
 .first-header-con {
-    padding-top: 190px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 .h1-title {
@@ -31,7 +33,7 @@ body {
 
 .h1-title-user {
     font-family: 'Roboto';
-    font-weight: 50;
+    font-weight: 350;
 }
 
 .h1-paragraph {
@@ -40,30 +42,76 @@ body {
     max-width: 850px;
     font-family: 'Roboto';
     font-weight: 350;
-    margin-bottom: 25px;
+    margin-top: -65px;
+    margin-bottom: 50px;
   }
 
-
-p {
-    color: #fff;
-}
+  .container {
+      padding-left: 15%;
+  }
 
 .button {
     padding: 8px 50px;
     border-radius: 30px;
     font-size: 16px;
     color: #fff;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     margin-right: 20px;
     display: inline-block;
     background-color: transparent;
     position: relative;
     font-family: 'Roboto';
-    font-weight: 75;
+    font-weight: 300;
     text-decoration: none;
 }
 
 .button:after {
     content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: inherit;
+    border: inherit;
+    -webkit-filter: drop-shadow(4px 5px 1px rgba(44, 189, 186, .6));
+            filter: drop-shadow(4px 5px 1px rgba(44, 189, 186, .6));
+}
 
+.button:hover {
+    background-color: #00B8D4;
+    border-color: #00B8D4;
+    color: #fff;
+    -webkit-box-shadow: 3px 4px 7px #2BBBB8;
+            box-shadow: 3px 4px 7px #2BBBB8;
+  }
+
+  .button:focus {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  .second-header-con {
+      height: 700px;
+      margin-top: 75px;
+  }
+
+  .h2-title, .h2-paragraph {
+    text-align: center;
+}
+
+.h2-title {
+    color: #061e37;
+    font-size: 1.75em;
+    margin-bottom: -15px;
+}
+
+.h2-paragraph {
+    color: #061e37;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 15px;
+}
+
+.second-header {
+    background: url("../img/process-graph.png") center no-repeat;
 }
