@@ -20,7 +20,7 @@ body {
     background-size: cover;
 }
 
-.first-header-con {
+.first-con {
     padding-top: 100px;
     padding-bottom: 150px;
 }
@@ -91,27 +91,83 @@ body {
       color: #fff;
   }
 
-  .second-header-con {
-      height: 700px;
-      margin-top: 75px;
+  .container-two {
+
   }
 
-  .h2-title, .h2-paragraph {
-    text-align: center;
+  .second-con {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
 }
 
-.h2-title {
-    color: #061e37;
-    font-size: 1.75em;
-    margin-bottom: -15px;
-}
+  .h2-title {
+      font-size: 30px;
+      color: #061e37;
+      font-weight: bold;
+      margin-bottom: -15px;
+  }
 
-.h2-paragraph {
-    color: #061e37;
-    font-family: 'Roboto-Light', sans-serif;
+  .h2-paragraph {
     font-size: 15px;
-}
+    font-family: 'Roboto';
+    color: #061e37;
+    }
 
-.second-header {
+    .process-section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
     background: url("../img/process-graph.png") center no-repeat;
-}
+    }
+
+    .the-team {
+        background: #32DBD7;
+    }
+
+    #teamCarousel {
+        padding-top: 30px;
+    }
+
+    #teamCarousel .carousel-control.left, #teamCarousel .carousel-control.right {
+        background: none !important;
+        -webkit-filter: progid:none !important;
+                filter: progid:none !important;
+        opacity: 1;
+      }
+
+    #teamCarousel .item img {
+        top: 12px;
+    }
+
+    #teamCarousel .the-team-title {
+        font-size: 20px;
+        color: #061e37;
+        text-shadow: none;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    #teamCarousel .the-team-title {
+        font-size: 15px;
+        color: #061e37;
+        text-shadow: none;
+    }
+
+    #teamCarousel .the-team-paragraph {
+        font-size: 15px;
+        color: #061e37;
+        max-width: 370px;
+        text-shadow: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    #teamCarousel .carousel-control {
+        top: 46%;
+        color: #fff !important;
+    }
