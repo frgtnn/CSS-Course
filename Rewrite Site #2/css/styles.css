@@ -2,12 +2,39 @@ body {
     font-family: 'Times New Roman', Georgia, serif;
 }
 
+.top {
+    height: 5vh;
+}
+
+.navbar-style {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    overflow: hidden;
+    margin-bottom: -0.25px;
+    padding-right: 50px;
+    padding-left: 25px
+}   
+
+
+li a {
+    font-size: 16px;
+    font-family: 'Playfair Display';
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.bottom-left {
+    vertical-align: middle;
+}
+
+
 .le-catering {
     font-family: 'Playfair Display';
     font-size: 36px;
     font-weight: 200;
     letter-spacing: 5px;
     position: absolute;
-    bottom: 150px;
+    bottom: 225px;
     left: 40px;
+    padding-left: 250px;
 }
