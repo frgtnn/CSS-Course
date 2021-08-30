@@ -1,0 +1,13 @@
+body {
+    font-family: 'Times New Roman', Georgia, serif;
+}
+
+.le-catering {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+}
