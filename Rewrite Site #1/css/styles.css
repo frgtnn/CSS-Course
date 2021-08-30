@@ -91,13 +91,8 @@ body {
       color: #fff;
   }
 
-  .container-two {
-
-  }
-
   .second-con {
-      margin-top: 100px;
-      margin-bottom: 100px;
+   
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -124,50 +119,86 @@ body {
     background: url("../img/process-graph.png") center no-repeat;
     }
 
+
+
     .the-team {
         background: #32DBD7;
+        display: flex;
+        justify-content: center;
     }
 
-    #teamCarousel {
-        padding-top: 30px;
+    .the-team-h2 {
+        color: #fff;
+        text-align: center;
+        margin-bottom: -15px;
     }
 
-    #teamCarousel .carousel-control.left, #teamCarousel .carousel-control.right {
-        background: none !important;
-        -webkit-filter: progid:none !important;
-                filter: progid:none !important;
-        opacity: 1;
-      }
-
-    #teamCarousel .item img {
-        top: 12px;
+    .the-team-paragraph {
+        color: #fff;
+        text-align: center;
+        font-weight: 250;
     }
 
-    #teamCarousel .the-team-title {
-        font-size: 20px;
-        color: #061e37;
-        text-shadow: none;
+    .carousel-inner {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .mySlides {
+        display: none;
+        justify-content: center;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
         font-weight: bold;
-        margin-bottom: 0;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
     }
 
-    #teamCarousel .the-team-title {
-        font-size: 15px;
+    .carousel-caption {
+        position: absolute;
+    }
+
+    .img-responsive-pic {
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+
+    .the-team-kabbo {
         color: #061e37;
-        text-shadow: none;
+        margin-bottom: -15px;
     }
-
-    #teamCarousel .the-team-paragraph {
-        font-size: 15px;
+    
+    .the-team-title {
+        margin-bottom: -5px;
         color: #061e37;
-        max-width: 370px;
-        text-shadow: none;
-        margin-right: auto;
-        margin-left: auto;
     }
 
-
-    #teamCarousel .carousel-control {
-        top: 46%;
-        color: #fff !important;
+    .the-team-paragraph-carousel {
+        color: #061e37;
     }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
