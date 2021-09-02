@@ -1,5 +1,9 @@
 body {
-    font-family: 'Times New Roman', Georgia, serif;
+    font-family: 'Playfair Display'
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
 }
 
 .top {
@@ -12,19 +16,22 @@ body {
     padding-left: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
 }   
 
 
 li a {
     font-size: 16px;
-    font-family: 'Playfair Display';
     color: black;
     letter-spacing: 4px;
     font-weight: 600;
 }
 
 .le-catering {
-    font-family: 'Playfair Display';
     font-size: 36px;
     font-weight: 200;
     letter-spacing: 5px;
@@ -44,16 +51,56 @@ li a {
 .second-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .apple-cake-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 300px;
+    width: 600px;
+    aspect-ratio: auto 600 / 750;
+    opacity: 0.75;
 }
 
 .second-section-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
+}
+
+.second-section-title {
+    font-size: 36px;
+    color: black;
+    letter-spacing: 7px;
+    margin-bottom: 30px;
+}
+
+.tradition-section {
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.first-paragraph {
+    font-size: 20px;
+    color: black;
+}
+
+.second-paragraph {
+    font-size: 20px;
+    color: #757575;
 }
