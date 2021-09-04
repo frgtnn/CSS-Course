@@ -140,3 +140,16 @@ p {
 .meal {
     opacity: 0.75;
 }
+
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+.contact {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 36px;
+}
