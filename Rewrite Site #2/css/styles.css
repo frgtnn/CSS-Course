@@ -7,28 +7,25 @@ html {
 }
 
 .top {
-    height: 5vh;
+    height: 3vh;
 }
 
 .navbar-style {
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     padding-right: 50px;
     padding-left: 25px;
-    padding-bottom: 10px;
-    padding-top: 10px;
     position: fixed;
-    top: 0;
     width: 100%;
     background-color: white;
     z-index: 1;
-}   
-
+    top: 0;
+}
 
 li a {
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     letter-spacing: 4px;
-    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .le-catering {
@@ -36,9 +33,10 @@ li a {
     font-weight: 200;
     letter-spacing: 5px;
     position: absolute;
-    bottom: 175px;
-    left: -70px;
+    bottom: 100px;
+    left: -200px;
     padding-left: 275px;
+    color: #757575;
 }
 
 .first-section {
@@ -53,6 +51,7 @@ li a {
     flex-direction: row;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 150px;
 }
 
 .apple-cake-div {
@@ -61,7 +60,6 @@ li a {
     align-items: center;
     margin-top: 100px;
     margin-right: 50px;
-    margin-bottom: 300px;
     width: 600px;
     aspect-ratio: auto 600 / 750;
     opacity: 0.75;
@@ -103,4 +101,42 @@ p {
 .second-paragraph {
     font-size: 20px;
     color: #757575;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 150px;
+}
+
+.our-menu-div {
+    margin-right: 100px;
+}
+
+.third-section-title {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+
+.first-option, .second-option, .third-option, .fourth-option, .fifth-option {
+    font-family: 'Display Fair';
+    font-size: 20px;
+    letter-spacing: 6px;
+    color: black;
+}
+
+.first-p, .second-p, .third-p, .fourth-p, .fifth-p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.meal {
+    opacity: 0.75;
 }
