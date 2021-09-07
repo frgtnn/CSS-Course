@@ -34,9 +34,13 @@ li a {
     letter-spacing: 5px;
     position: absolute;
     bottom: 100px;
-    left: -200px;
+    left: -120px;
     padding-left: 275px;
     color: #757575;
+}
+
+.hamburger-img {
+    width: 85%;
 }
 
 .first-section {
@@ -142,14 +146,60 @@ p {
 }
 
 .fourth-section {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
+    max-width: 55%;
+    margin: auto;
+    margin-bottom: 200px;
 }
 
 
 .contact {
-    font-family: 'Playfair Display';
+    font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 36px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+
+.fourth-section-paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.catering-service {
+    font-family: 'Times New Roman', Times, serif;
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.another-contact {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.input-16 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+    margin-bottom: 5px;
+    height: 55px;
+}
+
+.grey-button {
+    background-color: #f1f1f1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    width: 145px;
+    height: 38px;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+}
+
+.grey-button:hover {
+    background-color: #a9a9a9;
 }
