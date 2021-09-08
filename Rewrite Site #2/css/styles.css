@@ -28,6 +28,10 @@ li a {
     font-family: 'Times New Roman', Times, serif;
 }
 
+a:hover {
+    color: black;
+}
+
 .le-catering {
     font-size: 36px;
     font-weight: 200;
