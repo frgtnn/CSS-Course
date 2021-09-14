@@ -207,3 +207,18 @@ p {
 .grey-button:hover {
     background-color: #a9a9a9;
 }
+
+@media only screen and (min-width: 368px) {
+    .navbar-style {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 368px) {
+    .hamburger-img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+    }
+}
